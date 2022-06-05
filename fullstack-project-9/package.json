@@ -1,7 +1,6 @@
 {
   "name": "techdegree-fullstackjs-rest-api",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon ./app.js",
@@ -11,14 +10,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.18.3"
+    "cross-env": "^7.0.3",
+    "nodemon": "^1.18.3",
+    "sequelize-cli": "^6.4.1"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "cross-env": "^7.0.2",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "promise.prototype.finally": "^3.1.2",
-    "sqlite3": "^5.0.0"
-  }
+    "sequelize": "^6.20.1",
+    "sqlite3": "^5.0.8"
+  },
+  "description": ""
 }
